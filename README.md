@@ -10,3 +10,14 @@ Write a function that, efficiently with respect to time used, checks if a given 
     n3 (Value: 3, Left: null, Right: null)
 Call to contains(n2, 3), it should return True since a tree with root at n2 contains number 3.
 
+# The core code
+```
+    if root is None:
+        return False
+    elif root.value == value:
+        return True
+    elif root.value >= value:
+        return contains(root.left, value)
+    else:
+        return contains(root.right, value)
+ ```
