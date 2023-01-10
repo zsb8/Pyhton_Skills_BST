@@ -1,7 +1,8 @@
 # Pyhton_Skills_BST
-Checks if a given binary search tree contains a given value
+Checks if a given binary search tree contains a given value.
+It is a simple code to show how to run code by itselft to search.     
 
-
+# Question
 Binary search tree (BST) is a binary tree where the value of each node is larger or equal to the values in all the nodes in that node's left subtree and is smaller than the values in all the nodes in that node's right subtree.
 Write a function that, efficiently with respect to time used, checks if a given binary search tree contains a given value. For example, for the following tree:
     n1 (Value: 1, Left: null, Right: null)
